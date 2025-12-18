@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Attenance.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="menuLayout">
+      <header>
+        <nav>
+          <div class="mainLogoAndName">
+            <div class="Logo">
+              <img src="" alt="" />
+            </div>
+            <h1 class="logoName">
+              ATTENANCE <span class="spanLogo">PRO</span>
+            </h1>
+          </div>
+          <ul>
+            <div class="headerOne">
+              <li><a href="Dashboard.html">Dashboard</a></li>
+            </div>
+            <div class="headerTwo">
+              <li><a href="Attendance.html">Attendance</a></li>
+            </div>
+            <div class="headerThree">
+              <li><a href="Student.html">Students</a></li>
+            </div>
+            <div class="headerFour">
+              <li><a href="Report.html">Reports</a></li>
+            </div>
+            <div class="headerFive">
+              <li><a href="Setting.html">Settings</a></li>
+            </div>
+            <div>
+              <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+            </div>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <div class="reportMainContainer">
+      <main>
+        <h1>ATTENDANCE REPORT</h1>
+        <div class="generateReportCard">
+          <div>
+            <h3>Generate Report</h3>
+            <div class="generateMenu">
+            <section>
+            <div><p>Generate Summary</p><button><i class="fa-solid fa-caret-down fa-2x"></i></button></div>
+            <div><p>Courses</p> <button><i class="fa-solid fa-caret-down fa-2x"></i></button></div>
+            <div><p>Weekly Trends</p> <button><i class="fa-solid fa-caret-down fa-2x"></i></button></div>
+            <div><p>Semester</p> <button><i class="fa-solid fa-caret-down fa-2x"></i></button></div>
+            <div><p>Date Range </p><button><i class="fa-solid fa-caret-down fa-2x"></i></button></div>
+            </div>
+            </section>
+          </div>
+          <div class="generateButton">
+            <section>
+            <button>GENERATE REPORT</button>
+            <button>EXPORT TO CSV</button>
+            </section>
+          </div>
+        </div>
+        <div class="reportGraph">
+
+          <div class="chart">
+          </div>
+          <div class="grid-container-Report">
+    <div class="grid-header-Report">Date</div>
+    <div class="grid-header-Report">Present</div>
+    <div class="grid-header-Report">Absent</div>
+    <div class="grid-header-Report">Late</div>
+
+    <div class="grid-cell-Report">11/9/2025</div>
+    <div class="grid-cell-Report">Data R2 C2</div>
+    <div class="grid-cell-Report">Data R2 C3</div>
+    <div class="grid-cell-Report">Data R2 C4</div>
+
+    <div class="grid-cell-Report">11/8/2025</div>
+    <div class="grid-cell-Report">Data R3 C2</div>
+    <div class="grid-cell-Report">Data R3 C3</div>
+    <div class="grid-cell-Report">Data R3 C4</div>
+    
+    <div class="grid-cell-Report">11/7/2025</div>
+    <div class="grid-cell-Report">Data R4 C2</div>
+    <div class="grid-cell-Report">Data R4 C3</div>
+    <div class="grid-cell-Report">Data R4 C4</div>
+
+    <div class="grid-cell-Report">11/6/2025</div>
+    <div class="grid-cell-Report">Data R5 C2</div>
+    <div class="grid-cell-Report">Data R5 C3</div>
+    <div class="grid-cell-Report">Data R5 C4</div>
+</div>
+        </div>
+      </main>
+    </div>
+    <script src="Functionality.js"></script>
+  </body>
+</html>

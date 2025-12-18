@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Attenance.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <title>AttenancePro</title>
+  </head>
+  <body>
+    <div class="menuLayout">
+      <header>
+        <nav>
+          <div class="mainLogoAndName">
+            <div class="Logo">
+              <img src="" alt="" />
+            </div>
+            <h1 class="logoName">
+              ATTENANCE <span class="spanLogo">PRO</span>
+            </h1>
+          </div>
+          <ul>
+            <div class="headerOne">
+              <li><a href="Dashboard.html">Dashboard</a></li>
+            </div>
+            <div class="headerTwo">
+              <li><a href="Attendance.html">Attendance</a></li>
+            </div>
+            <div class="headerThree">
+              <li><a href="Student.html">Students</a></li>
+            </div>
+            <div class="headerFour">
+              <li><a href="Report.html">Reports</a></li>
+            </div>
+            <div class="headerFive">
+              <li><a href="Setting.html">Settings</a></li>
+            </div>
+            <div>
+              <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+            </div>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <div class="mainAttendanceContainer">
+      <main>
+        <h1>ATTENDANCE HISTORY</h1>
+        <div class="attendanceDropdown">
+          <div class="listDropdown">
+            <section>
+              <div><h6>Semester</h6></div>
+              <div class="dropdown"><button><i class="fa-solid fa-caret-down fa-2x"></i></button></div>
+            </section>
+          </div>
+          <div class="listDropdown">
+            <section>
+              <h6>Courses</h6>
+              <div class="dropdown"><button><i class="fa-solid fa-caret-down fa-2x"></i></button></div>
+            </section>
+          </div>
+          <div class="listDropdown">
+            <section>
+              <h6>Data Range</h6>
+              <input type="date" id="Calendar">
+            </section>
+          </div>
+        </div>
+        <div class="grid-container">
+          <div class="grid-item-menu-attendance"><p>Courses</p></div>
+          <div class="grid-item-menu-attendance"><p>Date</p></div>
+          <div class="grid-item-menu-attendance"><p>Time</p></div>
+          <div class="grid-item-menu-attendance"><p>Present</p></div>
+          <div class="grid-item-menu-attendance"><p>Absent</p></div>
+          <div class="grid-item-menu-attendance"><p>View Report</p></div>
+          <div class="grid-item-attendance">7</div>
+          <div class="grid-item-attendance">8</div>
+          <div class="grid-item-attendance">9</div>
+          <div class="grid-item-attendance">10</div>
+          <div class="grid-item-attendance">11</div>
+          <div class="grid-item-attendance">12</div>
+
+          <div class="grid-item-attendance">13</div>
+          <div class="grid-item-attendance">14</div>
+          <div class="grid-item-attendance">15</div>
+          <div class="grid-item-attendance">16</div>
+          <div class="grid-item-attendance">17</div>
+          <div class="grid-item-attendance">18</div>
+
+          <div class="grid-item-attendance">19</div>
+          <div class="grid-item-attendance">20</div>
+          <div class="grid-item-attendance">21</div>
+          <div class="grid-item-attendance">22</div>
+          <div class="grid-item-attendance">23</div>
+          <div class="grid-item-attendance">24</div>
+
+          <div class="grid-item-attendance">25</div>
+          <div class="grid-item-attendance">26</div>
+          <div class="grid-item-attendance">27</div>
+          <div class="grid-item-attendance">28</div>
+          <div class="grid-item-attendance">29</div>
+          <div class="grid-item-attendance">30</div>
+        </div>
+        <div class="pageAttendance">
+          <div>
+            <h6>
+              Page <span class="spanGreen">1 -</span
+              ><span class="spanGreen">5</span>
+            </h6>
+          </div>
+          <div class="buttonAttendance">
+            <i class="fa-solid fa-caret-right fa-2x"></i>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="Functionality.js"></script>
+  </body>
+</html>
